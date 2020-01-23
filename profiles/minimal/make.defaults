@@ -1,0 +1,15 @@
+# NOTE: This stage was built with the bindist Use flag enabled
+PORTDIR="/var/db/repos/gentoo"
+DISTDIR="/var/cache/distfiles"
+PKGDIR="/var/cache/binpkgs"
+
+# This sets the language of build output to English.
+# Please keep this setting intact when reporting bugs.
+LC_MESSAGES=C
+
+# Make options
+ACCEPT_LICENSE="-* @BINARY-REDISTRIBUTABLE"
+GRUB_PLATFORMS="efi-64"
+VIDEO_CARDS="nouveau"
+INPUT_DEVICES="libinput keyboard mouse"
+USE="xinerama savedconfig alsa pulseaudio"

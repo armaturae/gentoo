@@ -1,0 +1,21 @@
+# Grub
+# package.use# required by sys-boot/os-prober-1.77::gentoo
+# required by sys-boot/os-prober (argument)
+>=sys-boot/grub-2.02-r4 mount
+
+# virtualbox
+# required by app-emulation/virtualbox-5.2.32::gentoo[-headless]
+# required by app-emulation/virtualbox (argument)
+>=media-libs/libsdl-1.2.15-r9 X
+
+# Unix pass
+app-admin/pass X
+
+# Tmux
+>=app-misc/tmux-2.9a vim-syntax
+
+# Qemu
+# required by app-emulation/libvirt-5.8.0::gentoo[virt-network]
+# required by @selected
+# required by @world (argument)
+>=net-dns/dnsmasq-2.80-r1 script

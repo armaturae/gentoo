@@ -1,0 +1,139 @@
+######### alsa-plugins.use
+>=media-plugins/alsa-plugins-1.1.8 pulseaudio
+
+######### calibre.use
+# required by dev-lang/spidermonkey-60.5.2_p0-r2::gentoo
+# required by sys-auth/polkit-0.115-r4::gentoo
+# required by sys-apps/systemd-243-r2::gentoo[policykit]
+# required by sys-fs/udisks-2.8.4::gentoo[systemd]
+# required by app-text/calibre-3.47.1::gentoo[udisks]
+# required by app-text/calibre (argument)
+>=dev-lang/python-2.7.17:2.7 sqlite
+# required by app-text/calibre-3.47.1::gentoo
+# required by app-text/calibre (argument)
+>=app-text/poppler-0.82.0 qt5
+# required by app-text/calibre-3.47.1::gentoo
+# required by app-text/calibre (argument)
+>=dev-python/PyQt5-5.13.2 webkit svg
+# required by x11-misc/xdg-utils-1.1.3-r1::gentoo
+# required by app-text/calibre-3.47.1::gentoo
+# required by app-text/calibre (argument)
+>=app-text/xmlto-0.0.28-r1 text
+# required by sys-auth/polkit-0.115-r4::gentoo[systemd]
+# required by sys-fs/udisks-2.8.4::gentoo
+# required by app-text/calibre-3.47.1::gentoo[udisks]
+# required by app-text/calibre (argument)
+>=sys-apps/systemd-243-r2 policykit
+
+######### dwm.use
+>=x11-wm/dwm-6.11-r1 savedconfig xinerama
+
+######### feh
+media-gfx/feh exif curl
+
+######### i3.use
+# package.use# required by x11-libs/libxkbcommon-0.9.1::gentoo[X]
+# required by x11-wm/i3-4.15::gentoo
+# required by x11-wm/i3 (argument)
+# >=x11-libs/libxcb-1.13.1 xkb
+# required by x11-wm/i3-4.15::gentoo
+# required by x11-wm/i3 (argument)
+# >=x11-libs/libxkbcommon-0.9.1 X
+# required by x11-wm/i3-4.15::gentoo
+# required by x11-wm/i3 (argument)
+# >=x11-libs/cairo-1.16.0-r3 xcb X
+# required by x11-wm/i3-4.15::gentoo
+# required by x11-wm/i3 (argument)
+# >=x11-libs/pango-1.42.4-r2 X
+
+######### imlib2.use
+media-libs/imlib2 png jpeg
+
+######### kitty.use
+media-libs/libcanberra alsa
+
+######### layman
+app-portage/layman sync-plugin-portage git gpg
+
+######### libvirt.use
+>=app-emulation/libvirt-5.8.0 virt-network
+
+######### lvm2.use
+>=sys-fs/lvm2-2.02.184-r5 lvm2create_initd readline
+
+######### neovim.use
+# required by app-editors/neovim-0.4.3::gentoo
+# required by app-editors/neovim (argument)
+>=dev-lua/lpeg-1.0.1 luajit
+# required by app-editors/neovim-0.4.3::gentoo
+# required by app-editors/neovim (argument)
+>=dev-lua/luv-1.32.0.0 luajit
+# required by app-editors/neovim-0.4.3::gentoo
+# required by app-editors/neovim (argument)
+>=dev-lua/mpack-1.0.4 luajit
+
+######### openstack-meta.use
+>=sys-cluster/openstack-meta-2019.2.1 cinder glance heat keystone neutron nova placement swift
+
+######### pavucontrol.use
+# required by media-sound/pavucontrol-4.0::gentoo
+# required by media-sound/pavucontrol (argument)
+>=dev-cpp/gtkmm-3.24.2 X
+# required by dev-cpp/cairomm-1.12.0-r1::gentoo
+# required by dev-cpp/pangomm-2.42.0::gentoo
+# required by dev-cpp/gtkmm-3.24.2::gentoo
+# required by media-sound/pavucontrol-4.0::gentoo
+# required by media-sound/pavucontrol (argument)
+>=x11-libs/cairo-1.16.0-r3 -X
+
+######### pulseaudio.use
+>=media-sound/pulseaudio-13.0 systemd
+
+######### qtwebengine.use
+# package.use# required by dev-qt/qtwebengine-5.13.2::gentoo
+# required by dev-qt/qtwebengine (argument)
+>=dev-qt/qtwebchannel-5.13.2 qml
+# required by dev-qt/qtwebengine-5.13.2::gentoo
+# required by dev-qt/qtwebengine (argument)
+>=dev-libs/libxml2-2.9.9-r3 icu
+# required by dev-qt/qtwebengine-5.13.2::gentoo
+# required by dev-qt/qtwebengine (argument)
+>=media-libs/libvpx-1.7.0-r1 svc
+# required by dev-qt/qtwebengine-5.13.2::gentoo
+# required by dev-qt/qtwebengine (argument)
+>=sys-libs/zlib-1.2.11-r2 minizip
+# required by dev-qt/qtcore-5.13.2-r1::gentoo
+# required by dev-qt/qttest-5.13.2::gentoo
+# required by dev-qt/qtdeclarative-5.13.2-r1::gentoo[-test]
+# required by dev-qt/qtpositioning-5.13.2::gentoo[qml]
+# required by dev-qt/qtwebengine-5.13.2::gentoo
+# required by dev-qt/qtwebengine (argument)
+>=dev-libs/libpcre2-10.33-r1 pcre16
+
+######### texlive
+app-text/texlive X luatex
+>=media-libs/gd-2.2.5-r2 png
+
+######### vlc.use
+# required by media-video/vlc-3.0.8::gentoo[bidi]
+# required by media-video/vlc (argument)
+>=media-libs/freetype-2.9.1-r3 harfbuzz
+media-video/vlc X bidi ffmpeg dts flac jpeg mpeg mtp ncurses qt5 gnutls live lua matroska rtsp theora upnp vcdx
+
+# ######### zz-autounmask
+# # package.use# required by www-client/qutebrowser-1.8.3::gentoo
+# # required by =www-client/qutebrowser-1.8.3 (argument)
+# >=dev-python/pyyaml-5.1.2 libyaml
+# # required by dev-python/PyQtWebEngine-5.13.2::gentoo
+# # required by www-client/qutebrowser-1.8.3::gentoo
+# # required by =www-client/qutebrowser-1.8.3 (argument)
+# >=dev-python/PyQt5-5.13.2 network gui multimedia opengl widgets printsupport sql declarative webchannel
+# # required by dev-python/PyQtWebEngine-5.13.2::gentoo
+# # required by www-client/qutebrowser-1.8.3::gentoo
+# # required by =www-client/qutebrowser-1.8.3 (argument)
+# >=dev-qt/qtwebengine-5.13.2 widgets
+# # required by dev-python/PyQt5-5.13.2::gentoo[multimedia]
+# # required by dev-python/PyQtWebEngine-5.13.2::gentoo
+# # required by www-client/qutebrowser-1.8.3::gentoo
+# # required by =www-client/qutebrowser-1.8.3 (argument)
+# >=dev-qt/qtmultimedia-5.13.2-r1 widgets
