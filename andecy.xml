@@ -8,6 +8,6 @@
       <email>test@gmail.com</email>
       <name>Barak Avrahami</name>
     </owner>
-    <source branch="master" type="git">https://github.com/andecy64/andecy-overlay</source>
+    <source branch="master" type="git">https://github.com/andecy64/andecy-overlay.git</source>
   </repo>
 </repositories>
