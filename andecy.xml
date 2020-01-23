@@ -1,0 +1,13 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>andecy</name>
+    <description>personal overlay</description>
+    <homepage>https://coregen.io/gentoo-overlay</homepage>
+    <irc>@andecy</irc>
+    <owner>
+      <email>test@gmail.com</email>
+      <name>Barak Avrahami</name>
+    </owner>
+    <source branch="master" type="git">https://github.com/andecy64/andecy-overlay</source>
+  </repo>
+</repositories>
