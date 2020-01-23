@@ -1,2 +1,2 @@
-amd64 default/linux/amd64/17.1/systemd/minimal dev
-amd64 default/linux/amd64/17.1/systemd/graphical dev
+amd64 minimal dev
+amd64 graphical dev
