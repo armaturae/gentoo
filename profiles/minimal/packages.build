@@ -36,3 +36,5 @@ sys-kernel/linux-firmware
 x11-base/xorg-x11
 x11-misc/xsel
 x11-terms/xterm
+media-fonts/fontawesome
+app-shells/bash-completion
