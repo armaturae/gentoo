@@ -38,3 +38,4 @@ x11-misc/xsel
 x11-terms/xterm
 media-fonts/fontawesome
 app-shells/bash-completion
+sys-process/htop
