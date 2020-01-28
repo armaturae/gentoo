@@ -137,3 +137,5 @@ media-video/vlc X bidi ffmpeg dts flac jpeg mpeg mtp ncurses qt5 gnutls live lua
 # # required by www-client/qutebrowser-1.8.3::gentoo
 # # required by =www-client/qutebrowser-1.8.3 (argument)
 # >=dev-qt/qtmultimedia-5.13.2-r1 widgets
+
+net-p2p/transmission qt5

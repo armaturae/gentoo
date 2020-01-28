@@ -11,3 +11,4 @@ media-sound/pulseaudio
 media-gfx/feh
 media-libs/imlib2
 media-libs/libcanberra
+net-p2p/transmission
