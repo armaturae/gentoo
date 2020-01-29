@@ -1,3 +1,5 @@
 dev-vcs/hub **
 sys-cluster/minikube **
 www-apps/hugo **
+sys-cluster/kubectl **
+sys-cluster/minikube **
