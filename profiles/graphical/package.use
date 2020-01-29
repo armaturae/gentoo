@@ -118,7 +118,7 @@ app-text/texlive X luatex
 # required by media-video/vlc-3.0.8::gentoo[bidi]
 # required by media-video/vlc (argument)
 >=media-libs/freetype-2.9.1-r3 harfbuzz
-media-video/vlc X bidi ffmpeg dts flac jpeg mpeg mtp ncurses qt5 gnutls live lua matroska rtsp theora upnp vcdx
+media-video/vlc X bidi ffmpeg dts flac jpeg mpeg mtp ncurses qt5 gnutls live lua matroska rtsp theora upnp vcdx bluray aribsub libass kate zvbi xml
 
 # ######### zz-autounmask
 # # package.use# required by www-client/qutebrowser-1.8.3::gentoo
