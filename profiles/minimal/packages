@@ -40,3 +40,6 @@ media-fonts/fontawesome
 app-shells/bash-completion
 sys-process/htop
 dev-lang/ghc
+sys-cluster/minikube
+sys-cluster/kubectl
+app-admin/helm
