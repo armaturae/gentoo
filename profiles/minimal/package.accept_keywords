@@ -3,4 +3,4 @@ sys-cluster/minikube **
 www-apps/hugo **
 sys-cluster/kubectl **
 sys-cluster/minikube **
-dev-lang/go amd64
+dev-lang/go ~amd64
