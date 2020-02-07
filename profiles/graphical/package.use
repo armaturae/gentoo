@@ -139,3 +139,4 @@ media-video/vlc X bidi ffmpeg dts flac jpeg mpeg mtp ncurses qt5 gnutls live lua
 # >=dev-qt/qtmultimedia-5.13.2-r1 widgets
 
 net-p2p/transmission qt5
+app-misc/anki sound
