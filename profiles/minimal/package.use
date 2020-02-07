@@ -20,4 +20,4 @@ app-admin/pass X
 # required by @world (argument)
 >=net-dns/dnsmasq-2.80-r1 script
 
-sys-apps/systemd cgroups-hybrid
+sys-apps/systemd cgroup-hybrid
