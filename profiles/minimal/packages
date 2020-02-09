@@ -43,3 +43,4 @@ dev-lang/ghc
 sys-cluster/minikube
 sys-cluster/kubectl
 app-admin/helm
+app-misc/ranger
