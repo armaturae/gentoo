@@ -22,3 +22,4 @@ app-admin/pass X
 
 sys-apps/systemd cgroup-hybrid
 media-video/ffmpeg x264
+x11-wm/dwm xinerama
