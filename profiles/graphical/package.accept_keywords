@@ -3,3 +3,4 @@ www-client/qutebrowser ~amd64
 dev-python/pypeg2 ~amd64
 dev-python/pyyaml ~amd64
 app-misc/anki ~amd64
+media-video/obs-studio ~amd64
