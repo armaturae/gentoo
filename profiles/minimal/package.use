@@ -21,3 +21,4 @@ app-admin/pass X
 >=net-dns/dnsmasq-2.80-r1 script
 
 sys-apps/systemd cgroup-hybrid
+media-video/ffmpeg x264
