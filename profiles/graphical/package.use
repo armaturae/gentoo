@@ -142,3 +142,7 @@ net-p2p/transmission qt5
 app-misc/anki sound
 
 media-video/obs-studio luajit pulseaudio ssl truetype vlc python
+
+# required by discord-bin (argument)
+>=app-text/ghostscript-gpl-9.50 cups
+
