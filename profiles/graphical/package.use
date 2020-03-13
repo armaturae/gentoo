@@ -140,3 +140,5 @@ media-video/vlc X bidi ffmpeg dts flac jpeg mpeg mtp ncurses qt5 gnutls live lua
 
 net-p2p/transmission qt5
 app-misc/anki sound
+
+media-video/obs-studio luajit pulseaudio ssl truetype vlc python
