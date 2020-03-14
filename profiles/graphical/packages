@@ -15,4 +15,5 @@ net-p2p/transmission
 app-misc/anki
 media-fonts/ja-ipafonts
 media-video/obs-studio
->=x11-wm/dwm-6.1-r1
+x11-wm/dwm
+media-sound/pavucontrol-qt
