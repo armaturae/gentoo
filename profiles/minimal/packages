@@ -45,3 +45,4 @@ sys-cluster/kubectl
 app-admin/helm
 app-misc/ranger
 sys-fs/exfat-utils
+sys-fs/fuse-exfat
