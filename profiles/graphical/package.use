@@ -146,8 +146,8 @@ media-video/obs-studio luajit pulseaudio ssl truetype vlc python
 # required by discord-bin (argument)
 >=app-text/ghostscript-gpl-9.50 cups
 
-The following USE changes are necessary to proceed:
- (see "package.use" in the portage(5) man page for more details)
+# The following USE changes are necessary to proceed:
+#  (see "package.use" in the portage(5) man page for more details)
 # required by www-client/firefox-68.4.2::gentoo
 # required by @profile
 # required by @world (argument)
