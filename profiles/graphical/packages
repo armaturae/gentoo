@@ -11,6 +11,7 @@ media-libs/imlib2
 media-libs/libcanberra
 net-p2p/transmission
 media-fonts/ja-ipafonts
+x11-terms/kitty
 media-video/obs-studio
 x11-wm/dwm
 media-sound/pavucontrol-qt
