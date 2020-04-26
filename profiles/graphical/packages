@@ -10,10 +10,8 @@ media-gfx/feh
 media-libs/imlib2
 media-libs/libcanberra
 net-p2p/transmission
-app-misc/anki
 media-fonts/ja-ipafonts
 media-video/obs-studio
 x11-wm/dwm
 media-sound/pavucontrol-qt
 www-client/firefox
-app-text/calibre
