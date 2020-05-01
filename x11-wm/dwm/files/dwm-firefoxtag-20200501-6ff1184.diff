@@ -1,0 +1,25 @@
+From 6ff1184287d6f216f5117603993e9d1be92ea0fe Mon Sep 17 00:00:00 2001
+From: Barak Avrahami <19807724+andecy64@users.noreply.github.com>
+Date: Fri, 1 May 2020 16:46:19 +0300
+Subject: [PATCH] Changed firefox tag
+
+---
+ config.def.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/config.def.h b/config.def.h
+index 1c0b587..31a67b8 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -28,7 +28,7 @@ static const Rule rules[] = {
+ 	 */
+ 	/* class      instance    title       tags mask     isfloating   monitor */
+ 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
+-	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
++	{ "Firefox",  NULL,       NULL,       2 << 9,       0,           -1 },
+ };
+ 
+ /* layout(s) */
+-- 
+2.26.2
+
