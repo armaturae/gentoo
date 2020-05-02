@@ -33,3 +33,9 @@ x11-wm/dwm xinerama
 # required by @selected
 # required by @world (argument)
 >=dev-lang/python-3.7.7-r2:3.7 sqlite
+
+# The following USE changes are necessary to proceed:
+#  (see "package.use" in the portage(5) man page for more details)
+# required by media-gfx/zbar-0.23-r1::gentoo[-graphicsmagick,imagemagick]
+# required by media-gfx/zbar (argument)
+>=media-gfx/imagemagick-7.0.10.1 png
