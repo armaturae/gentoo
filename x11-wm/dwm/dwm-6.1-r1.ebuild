@@ -24,8 +24,6 @@ DEPEND="
 	xinerama? ( x11-base/xorg-proto )
 "
 
-PATCHES=( "${FILESDIR}/files/dwm-firefoxtag-20200501-6ff1184.diff" )
-
 src_prepare() {
 	default
 
