@@ -5,3 +5,4 @@ dev-python/pyyaml ~amd64
 app-misc/anki ~amd64
 media-video/obs-studio ~amd64
 net-im/discord-bin ~amd64
+=x11-wm/dwm-6.2 ~amd64
