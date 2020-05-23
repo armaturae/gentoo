@@ -39,3 +39,5 @@ x11-wm/dwm xinerama
 # required by media-gfx/zbar-0.23-r1::gentoo[-graphicsmagick,imagemagick]
 # required by media-gfx/zbar (argument)
 >=media-gfx/imagemagick-7.0.10.1 png
+
+sys-apps/usbutils python
