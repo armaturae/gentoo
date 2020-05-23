@@ -42,4 +42,4 @@ x11-wm/dwm xinerama
 
 sys-apps/usbutils python
 
-sys-apps/pcsc-lite doc libusb systemd udev
+sys-apps/pcsc-lite doc libusb systemd
