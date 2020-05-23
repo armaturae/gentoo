@@ -40,10 +40,9 @@ media-fonts/fontawesome
 app-shells/bash-completion
 sys-process/htop
 dev-lang/ghc
-sys-cluster/minikube
-sys-cluster/kubectl
 app-admin/helm
 app-misc/ranger
 sys-fs/exfat-utils
 sys-fs/fuse-exfat
 sys-apps/bat
+sys-cluster/kubernetes:1.18.0
