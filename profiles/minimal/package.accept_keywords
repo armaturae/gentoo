@@ -5,3 +5,4 @@ sys-cluster/kubectl ~amd64
 sys-cluster/minikube ~amd64
 dev-lang/go ~amd64
 app-admin/helm ~amd64
+sys-apps/bat ~amd64
