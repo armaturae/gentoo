@@ -45,4 +45,4 @@ app-misc/ranger
 sys-fs/exfat-utils
 sys-fs/fuse-exfat
 sys-apps/bat
-sys-cluster/kubernetes:1.18.0
+sys-cluster/kubernetes
