@@ -41,3 +41,5 @@ x11-wm/dwm xinerama
 >=media-gfx/imagemagick-7.0.10.1 png
 
 sys-apps/usbutils python
+
+sys-apps/pcsc-lite doc libusb systemd udev
