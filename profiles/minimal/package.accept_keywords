@@ -6,4 +6,5 @@ sys-cluster/minikube ~amd64
 dev-lang/go ~amd64
 app-admin/helm ~amd64
 sys-apps/bat ~amd64
-=sys-cluster/kubernetes-1.18.0 ~amd53
+=sys-cluster/kubernetes-1.18.0 ~amd64
+=www-plugins/passff-host-1.2.1 ~amd64
