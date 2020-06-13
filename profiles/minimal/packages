@@ -46,3 +46,4 @@ sys-fs/exfat-utils
 sys-fs/fuse-exfat
 sys-apps/bat
 sys-cluster/kubernetes
+net-dns/coredns
