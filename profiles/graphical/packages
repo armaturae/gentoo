@@ -16,7 +16,6 @@ media-video/obs-studio
 x11-wm/dwm
 media-sound/pavucontrol-qt
 www-client/firefox
-# media-sound/jack2
 media-sound/ardour
 media-sound/jack-audio-connection-kit
 media-sound/candence

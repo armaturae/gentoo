@@ -296,7 +296,6 @@ media-video/obs-studio luajit pulseaudio ssl truetype vlc python
 >=www-plugins/passff-host-1.2.1 firefox
 
 # Ardour and oxygen
-media-sound/jack2 doc alsa
 media-sound/ardour doc jack
 media-sound/hydrogen jack alsa doc
 >=sci-libs/fftw-3.3.6_p2 threads
