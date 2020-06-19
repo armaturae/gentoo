@@ -314,7 +314,7 @@ x11-drivers/nvidia-drivers -libglvnd
 # >=dev-python/PyQt5-5.14.2 dbus
 # # required by media-sound/cadence-0.9.0-r4::gentoo
 # # required by media-sound/cadence (argument)
->=media-sound/jack2-1.9.14 dbus alsa
+>=media-sound/jack2-1.9.14 dbus alsa pam
 # # required by media-sound/cadence-0.9.0-r4::gentoo[pulseaudio]
 # # required by media-sound/cadence (argument)
 # >=media-sound/pulseaudio-13.0 jack
