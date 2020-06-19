@@ -84,7 +84,8 @@ app-portage/layman sync-plugin-portage git gpg
 # required by dev-cpp/gtkmm-3.24.2::gentoo
 # required by media-sound/pavucontrol-4.0::gentoo
 # required by media-sound/pavucontrol (argument)
->=x11-libs/cairo-1.16.0-r3 -X
+>=x11-libs/cairo-1.16.0-r3 aqua X
+>=dev-cpp/cairomm-1.12.0-r1 aqua X
 
 ######### pulseaudio.use
 >=media-sound/pulseaudio-13.0 systemd
@@ -293,6 +294,10 @@ media-video/obs-studio luajit pulseaudio ssl truetype vlc python
 # required by dev-python/sphinxcontrib-applehelp-1.0.1::gentoo
 >=dev-python/pytz-2019.3 python_targets_python3_7
 >=www-plugins/passff-host-1.2.1 firefox
+
+# Ardour and oxygen
 media-sound/jack2 dbus doc metadata sndfile alsa
 media-sound/ardour doc jack nls
 media-sound/hydrogen jack pulseaudio alsa doc
+>=sci-libs/fftw-3.3.6_p2 threads
+>=app-doc/doxygen-1.8.17 dot
