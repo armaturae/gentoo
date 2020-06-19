@@ -28,7 +28,7 @@ x11-wm/dwm xinerama
 # required by app-misc/anki-2.1.13-r1::gentoo[sound]
 # required by @selected
 # required by @world (argument)
->=media-libs/libglvnd-1.3.1 X
+# >=media-libs/libglvnd-1.3.1 X
 # required by app-text/calibre-4.9.1-r2::gentoo[python_single_target_python3_7]
 # required by @selected
 # required by @world (argument)
