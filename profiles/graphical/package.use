@@ -302,3 +302,4 @@ media-sound/hydrogen jack alsa doc
 >=sci-libs/fftw-3.3.6_p2 threads
 >=app-doc/doxygen-1.8.17 dot
 >=media-libs/gd-2.3.0 jpeg truetype fontconfig
+media-sound/jack-audio-connection-kit alsa doc
