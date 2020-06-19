@@ -47,3 +47,4 @@ sys-fs/fuse-exfat
 sys-apps/bat
 sys-cluster/kubernetes
 net-dns/coredns
+net-dns/bind-tools
