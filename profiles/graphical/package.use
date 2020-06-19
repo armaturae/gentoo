@@ -297,7 +297,7 @@ media-video/obs-studio luajit pulseaudio ssl truetype vlc python
 
 # Ardour and oxygen
 media-sound/jack2 doc alsa
-media-sound/ardour doc jack nls
+media-sound/ardour doc jack
 media-sound/hydrogen jack alsa doc
 >=sci-libs/fftw-3.3.6_p2 threads
 >=app-doc/doxygen-1.8.17 dot
