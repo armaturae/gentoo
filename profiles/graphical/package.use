@@ -308,3 +308,14 @@ media-sound/jack-audio-connection-kit alsa doc
 media-libs/mesa -libglvnd
 x11-base/xorg-server -libglvnd
 x11-drivers/nvidia-drivers -libglvnd
+
+# Cadence
+# required by media-sound/cadence-0.9.0-r4::gentoo[python_single_target_python3_7]
+# required by media-sound/cadence (argument)
+>=dev-python/PyQt5-5.14.2 dbus
+# required by media-sound/cadence-0.9.0-r4::gentoo
+# required by media-sound/cadence (argument)
+>=media-sound/jack2-1.9.14 dbus
+# required by media-sound/cadence-0.9.0-r4::gentoo[pulseaudio]
+# required by media-sound/cadence (argument)
+>=media-sound/pulseaudio-13.0 jack
