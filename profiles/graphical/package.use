@@ -303,3 +303,8 @@ media-sound/hydrogen jack alsa doc
 >=app-doc/doxygen-1.8.17 dot
 >=media-libs/gd-2.3.0 jpeg truetype fontconfig
 media-sound/jack-audio-connection-kit alsa doc
+
+# graphical / mesa
+media-libs/mesa -libglvnd
+x11-base/xorg-server -libglvnd
+x11-drivers/nvidia-drivers -libglvnd
