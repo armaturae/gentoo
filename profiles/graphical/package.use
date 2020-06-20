@@ -318,4 +318,4 @@ x11-drivers/nvidia-drivers -libglvnd
 # # required by media-sound/cadence-0.9.0-r4::gentoo[pulseaudio]
 # # required by media-sound/cadence (argument)
 # >=media-sound/pulseaudio-13.0 jack
-media-sound/musescore webengine omr osc portmidi sf3
+media-sound/musescore omr osc portmidi sf3
