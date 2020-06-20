@@ -8,3 +8,4 @@ app-admin/helm ~amd64
 sys-apps/bat ~amd64
 =sys-cluster/kubernetes-1.18.0 ~amd64
 =net-dns/coredns-1.6.9 ~amd64
+=app-misc/timew-1.2.0 ~amd64
