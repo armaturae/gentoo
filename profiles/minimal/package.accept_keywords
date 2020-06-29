@@ -11,3 +11,4 @@ sys-apps/bat ~amd64
 =app-misc/timew-1.2.0 ~amd64
 dev-libs/go-fuse **
 sys-fs/go-mtpfs **
+dev-libs/go-usb ~amd64
