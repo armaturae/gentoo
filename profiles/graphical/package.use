@@ -161,6 +161,7 @@ media-video/obs-studio luajit pulseaudio ssl truetype vlc python
 # required by @profile
 # required by @world (argument)
 >=dev-db/sqlite-3.30.1 secure-delete
+www-client/firefox geckodriver
 
 
 ###### Kitty
