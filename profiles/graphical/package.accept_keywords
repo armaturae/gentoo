@@ -10,3 +10,4 @@ net-im/discord-bin ~amd64
 =media-sound/ardour-6.0 ~amd64
 =media-sound/hydrogen-1.0.0_rc1 ~amd64
 media-gfx/flameshot ~amd64
+net-misc/kafkacat ~amd64
