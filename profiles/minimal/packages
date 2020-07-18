@@ -51,3 +51,4 @@ net-dns/bind-tools
 app-misc/timew
 dev-libs/go-fuse
 sys-fs/go-mtpfs
+app-metrics/prometheus
