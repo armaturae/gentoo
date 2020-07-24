@@ -43,3 +43,6 @@ x11-wm/dwm xinerama
 sys-apps/usbutils python
 
 sys-apps/pcsc-lite doc systemd udev
+
+### This is getting tiresome
+>=x11-libs/cairo-1.16.0-r4 X
