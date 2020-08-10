@@ -322,3 +322,6 @@ x11-drivers/nvidia-drivers -libglvnd
 
 # Musescore
 >=dev-qt/qtsingleapplication-2.6.1_p20171024 X
+
+# Calibre
+>=dev-qt/qtgui-5.15.0 jpeg
