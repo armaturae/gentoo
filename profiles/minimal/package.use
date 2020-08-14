@@ -46,3 +46,9 @@ sys-apps/pcsc-lite doc systemd udev
 
 ### This is getting tiresome
 >=x11-libs/cairo-1.16.0-r4 X
+
+###
+>=media-libs/libglvnd-9999 X
+
+###
+>=dev-python/PyQt5-5.14.2-r1 gui widgets printsupport network webchannel
