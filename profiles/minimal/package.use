@@ -51,4 +51,4 @@ sys-apps/pcsc-lite doc systemd udev
 >=media-libs/libglvnd-9999 X
 
 ###
->=dev-python/PyQt5-5.14.2-r1 gui widgets printsupport network webchannel
+>=dev-python/PyQt5-5.14.2-r1 gui printsupport network webchannel
