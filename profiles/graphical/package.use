@@ -305,9 +305,7 @@ media-sound/hydrogen jack alsa doc
 media-sound/jack-audio-connection-kit alsa doc
 
 # graphical / mesa
-media-libs/mesa -libglvnd
-x11-base/xorg-server -libglvnd
-x11-drivers/nvidia-drivers -libglvnd
+media-libs/mesa X
 
 # # Cadence
 # # required by media-sound/cadence-0.9.0-r4::gentoo[python_single_target_python3_7]
