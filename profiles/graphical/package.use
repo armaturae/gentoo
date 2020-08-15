@@ -326,3 +326,7 @@ x11-base/xorg-server libglvnd
 
 # Calibre
 >=dev-qt/qtgui-5.15.0 jpeg
+
+
+### Qtwebengine
+>=dev-python/PyQt5-5.14.2-r1 gui widgets printsupport network webchannel
