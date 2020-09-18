@@ -201,4 +201,4 @@ x11-base/xorg-server libglvnd
 
 ### Qtwebengine
 >=dev-python/PyQt5-5.14.2-r1 gui widgets printsupport network webchannel
-=dev-qt/qtwebengine-5.15.0 widgets
+>=dev-qt/qtwebengine-5.15.0 widgets
