@@ -15,4 +15,4 @@ dev-libs/go-usb **
 dev-libs/avro-c ~amd64
 net-misc/kafkacat ~amd64
 dev-libs/libserdes ~amd64
-x11-apps/copyq ~amd64
+x11-misc/copyq ~amd64
