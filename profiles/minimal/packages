@@ -53,4 +53,4 @@ x11-misc/sxhkd
 app-text/lesspipe
 net-misc/kafkacat
 net-p2p/syncthing
-x11-copyq/copyq
+x11-misc/copyq
