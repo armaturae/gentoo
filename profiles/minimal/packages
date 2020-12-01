@@ -54,3 +54,4 @@ app-text/lesspipe
 net-misc/kafkacat
 net-p2p/syncthing
 x11-misc/copyq
+app-office/ledger
