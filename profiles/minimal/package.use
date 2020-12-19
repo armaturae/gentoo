@@ -51,3 +51,4 @@ sys-apps/pcsc-lite doc systemd udev
 >=media-libs/libglvnd-9999 X
 
 >=dev-python/pygments-2.7.2 python_targets_python3_7
+>=dev-python/setuptools-50.3.0 python_targets_python3_7
