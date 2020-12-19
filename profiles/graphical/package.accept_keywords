@@ -13,3 +13,4 @@ media-gfx/flameshot ~amd64
 >=app-text/calibre-4.23.0 ~amd64
 games-engines/openmw ~amd64
 dev-games/recastnavigation ~amd64
+dev-games/openscenegraph-openmw ~amd64
