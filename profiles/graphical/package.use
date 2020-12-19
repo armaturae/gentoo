@@ -142,7 +142,7 @@ media-video/vlc X bidi ffmpeg dts flac jpeg mpeg mtp ncurses qt5 gnutls live lua
 net-p2p/transmission qt5
 app-misc/anki sound
 
-media-video/obs-studio luajit pulseaudio ssl truetype vlc python
+media-video/obs-studio luajit pulseaudio ssl truetype vlc python3_7
 
 # required by discord-bin (argument)
 >=app-text/ghostscript-gpl-9.50 cups
