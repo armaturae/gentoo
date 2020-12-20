@@ -52,3 +52,5 @@ sys-apps/pcsc-lite doc systemd udev
 
 >=dev-python/pygments-2.7.2 python_targets_python3_7
 >=dev-python/setuptools-50.3.0 python_targets_python3_7
+>=dev-python/certifi-10001-r1 python_targets_python3_7
+>=dev-python/setuptools_scm-4.1.2-r1 python_targets_python3_7
