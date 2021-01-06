@@ -51,7 +51,7 @@ def execute_layman(as_sudo=True):
     cmd_base = "layman -S"
     cmd = "sudo " + cmd_base if as_sudo else cmd_base
     out = subprocess.check_output(cmd.split())
-    logger.info(out)
+    print(out)
 
 
 def main():
