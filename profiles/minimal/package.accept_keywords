@@ -16,3 +16,4 @@ dev-libs/avro-c ~amd64
 net-misc/kafkacat ~amd64
 dev-libs/libserdes ~amd64
 x11-misc/copyq ~amd64
+dev-lang/ghc **

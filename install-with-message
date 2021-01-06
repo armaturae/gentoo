@@ -1,0 +1,76 @@
+#!/usr/bin/env python
+
+import subprocess
+import logging
+import argparse
+import sys
+
+logger = logging.getLogger()
+logger.addHandler(logging.StreamHandler())
+logger.setLevel(logging.INFO)
+
+
+def query_yes_no(question, default="yes"):
+    valid = {"yes": True, "y": True, "ye": True,
+             "no": False, "n": False}
+    if default is None:
+        prompt = " [y/n] "
+    elif default == "yes":
+        prompt = " [Y/n] "
+    elif default == "no":
+        prompt = " [y/N] "
+    else:
+        raise ValueError("invalid default answer: '%s'" % default)
+
+    while True:
+        sys.stdout.write(question + prompt)
+        choice = input().lower()
+        if default is not None and choice == '':
+            return valid[default]
+        elif choice in valid:
+            return valid[choice]
+        else:
+            sys.stdout.write("Please respond with 'yes' or 'no' "
+                             "(or 'y' or 'n').\n")
+
+
+def add_and_commit(message):
+    
+    add_cmd = ["git", "add", "."]
+    
+    message_args = message.split()
+    commit_cmd = ["git", "commit", "-m", f"\"{message}\""]
+
+    push_cmd = ["git", "push", "origin", "master"]
+    
+    add = subprocess.check_output(add_cmd)
+    commit = subprocess.check_output(commit_cmd)
+    push = subprocess.check_output(push_cmd)
+    for output in [add, commit, push]:
+        logger.info(output)
+
+
+def execute_layman(as_sudo=True):
+    cmd_base = "layman -S"
+    cmd = "sudo" + cmd_base if as_sudo else cmd_base
+    out = subprocess.check_output(cmd.split())
+    logger.info(out)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-m", dest="message")
+    args = parser.parse_args()
+    if args.message is None:
+        logger.critical("Message was not supplied")
+        exit(1)
+    logger.info("Message: %s", args.message)
+    choice = query_yes_no("Are you sure about that?", default="no")
+    if choice:
+        add_and_commit(args.message)
+        execute_layman()
+    else:
+        logger.warning("No changes were made")
+        exit(1)
+
+main()
