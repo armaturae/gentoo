@@ -35,24 +35,21 @@ def query_yes_no(question, default="yes"):
 
 
 def add_and_commit(message):
-    
+
     add_cmd = ["git", "add", "."]
-    
-    message_args = message.split()
-    commit_cmd = ["git", "commit", "-m", f"\"{message}\""]
+
+    commit_cmd = ["git", "commit", "-m", f"{message}"]
 
     push_cmd = ["git", "push", "origin", "master"]
-    
-    add = subprocess.check_output(add_cmd)
-    commit = subprocess.check_output(commit_cmd)
-    push = subprocess.check_output(push_cmd)
-    for output in [add, commit, push]:
-        logger.info(output)
+
+    subprocess.check_output(add_cmd)
+    subprocess.check_output(commit_cmd)
+    subprocess.check_output(push_cmd)
 
 
 def execute_layman(as_sudo=True):
     cmd_base = "layman -S"
-    cmd = "sudo" + cmd_base if as_sudo else cmd_base
+    cmd = "sudo " + cmd_base if as_sudo else cmd_base
     out = subprocess.check_output(cmd.split())
     logger.info(out)
 
