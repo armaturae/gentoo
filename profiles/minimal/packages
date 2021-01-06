@@ -46,11 +46,10 @@ sys-fs/fuse-exfat
 sys-apps/bat
 net-dns/coredns
 net-dns/bind-tools
-app-misc/timew
 app-metrics/prometheus
 x11-misc/sxhkd
-app-text/lesspipe
 net-misc/kafkacat
 net-p2p/syncthing
 x11-misc/copyq
 app-office/ledger
+app-misc/timew
