@@ -30,7 +30,7 @@ media-plugins/alsa-plugins
 net-irc/weechat
 net-misc/dhcpcd
 sys-kernel/genkernel
-sys-kernel/gentoo-sources:4.19.86
+sys-kernel/gentoo-sources
 sys-kernel/linux-firmware
 x11-base/xorg-x11
 x11-misc/xsel
