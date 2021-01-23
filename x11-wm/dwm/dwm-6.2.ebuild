@@ -24,9 +24,9 @@ DEPEND="
 	xinerama? ( x11-base/xorg-proto )
 "
 PATCHES=(
-	"${FILESDIR}/dwm-fullgaps-6.2.diff"
-	"${FILESDIR}/dwm-shiftview-6.2.diff"
-	# "${FILESDIR}/dwm-custom-6.2.diff"
+	#"${FILESDIR}/dwm-fullgaps-6.2.diff"
+	#"${FILESDIR}/dwm-shiftview-6.2.diff"
+	"${FILESDIR}/dwm-custom-6.2.diff"
 	)
 
 src_prepare() {
