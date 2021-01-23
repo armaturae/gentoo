@@ -1,0 +1,14 @@
+diff --git a/config.def.h b/config.def.h
+index 09ce716..00876cb 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -28,8 +28,7 @@ static const Rule rules[] = {
+ 	 *	WM_NAME(STRING) = title
+ 	 */
+ 	/* class      instance    title       tags mask     isfloating   monitor */
+-	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
+-	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
++	{ "Firefox",  NULL,       NULL,       2 << 9,       0,           -1 },
+ };
+ 
+ /* layout(s) */

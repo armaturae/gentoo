@@ -1,0 +1,36 @@
+diff --git a/config.def.h b/config.def.h
+index 38d2f6c..09ce716 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -87,6 +87,8 @@ static Key keys[] = {
+ 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
+ 	{ MODKEY,                       XK_minus,  setgaps,        {.i = -1 } },
+ 	{ MODKEY,                       XK_equal,  setgaps,        {.i = +1 } },
++	{ MODKEY,                       XK_x,      shiftview,      {.i = +1 } },
++	{ MODKEY,                       XK_z,      shiftview,      {.i = -1 } },
+ 	{ MODKEY|ShiftMask,             XK_equal,  setgaps,        {.i = 0  } },
+ 	TAGKEYS(                        XK_1,                      0)
+ 	TAGKEYS(                        XK_2,                      1)
+@@ -117,3 +119,22 @@ static Button buttons[] = {
+ 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0} },
+ };
+ 
++/** Function to shift the current view to the left/right
++ *
++ * @param: "arg->i" stores the number of tags to shift right (positive value)
++ *          or left (negative value)
++ */
++void
++shiftview(const Arg *arg) {
++	Arg shifted;
++
++	if(arg->i > 0) // left circular shift
++		shifted.ui = (selmon->tagset[selmon->seltags] << arg->i)
++		   | (selmon->tagset[selmon->seltags] >> (LENGTH(tags) - arg->i));
++
++	else // right circular shift
++		shifted.ui = selmon->tagset[selmon->seltags] >> (- arg->i)
++		   | selmon->tagset[selmon->seltags] << (LENGTH(tags) + arg->i);
++
++	view(&shifted);
++}

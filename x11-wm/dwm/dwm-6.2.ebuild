@@ -23,7 +23,11 @@ DEPEND="
 	${RDEPEND}
 	xinerama? ( x11-base/xorg-proto )
 "
-PATCHES=( "${FILESDIR}/dwm-firefoxtag-20200503-e940e26.diff" )
+PATCHES=(
+	"${FILESDIR}/dwm-fullgaps-6.2.diff"
+	"${FILESDIR}/dwm-firefox-tag-6.2.diff"
+	"${FILESDIR}/dwm-shiftview-6.2.diff"
+	)
 
 src_prepare() {
 	default
