@@ -25,8 +25,8 @@ DEPEND="
 "
 PATCHES=(
 	"${FILESDIR}/dwm-fullgaps-6.2.diff"
-	"${FILESDIR}/dwm-firefox-tag-6.2.diff"
-	"${FILESDIR}/dwm-shiftview-6.2.diff"
+	#"${FILESDIR}/dwm-shiftview-6.2.diff"
+	#"${FILESDIR}/dwm-firefox-tag-6.2.diff"
 	)
 
 src_prepare() {
