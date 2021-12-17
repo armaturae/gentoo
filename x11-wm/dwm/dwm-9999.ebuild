@@ -6,7 +6,7 @@ inherit git-r3 toolchain-funcs
 
 DESCRIPTION="a dynamic window manager for X11"
 HOMEPAGE="https://dwm.suckless.org/"
-EGIT_REPO_URI="https://git.suckless.org/dwm"
+EGIT_REPO_URI="https://github.com/armaturae/dwm"
 
 LICENSE="MIT"
 SLOT="0"
@@ -45,7 +45,7 @@ src_install() {
 	emake DESTDIR="${D}" PREFIX="${EPREFIX}/usr" install
 
 	exeinto /etc/X11/Sessions
-	newexe "${FILESDIR}"/dwm-session2 dwm
+	newexe "${FILESDIR}"/dwm-session2-armaturae dwm
 
 	insinto /usr/share/xsessions
 	doins "${FILESDIR}"/dwm.desktop

@@ -1,4 +1,4 @@
-# Copyright 1999-2019 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -10,7 +10,7 @@ SRC_URI="https://dl.suckless.org/${PN}/${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64 ~arm ~ppc ~ppc64 ~x86"
+KEYWORDS="amd64 ~arm arm64 ppc ppc64 ~riscv x86"
 IUSE="xinerama"
 
 RDEPEND="
@@ -23,11 +23,6 @@ DEPEND="
 	${RDEPEND}
 	xinerama? ( x11-base/xorg-proto )
 "
-PATCHES=(
-	#"${FILESDIR}/dwm-fullgaps-6.2.diff"
-	#"${FILESDIR}/dwm-shiftview-6.2.diff"
-	#"${FILESDIR}/dwm-final-6.2.diff"
-	)
 
 src_prepare() {
 	default
