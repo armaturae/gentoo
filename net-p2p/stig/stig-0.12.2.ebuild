@@ -21,7 +21,6 @@ RDEPEND="
 		>=dev-python/urwid-2.0[${PYTHON_USEDEP}]
 		>=dev-python/urwidtrees-1.0.3[${PYTHON_USEDEP}]
 		>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
-		>=dev-python/libaio-0.3.112[${PYTHON_USEDEP}]
 		dev-python/pyxdg[${PYTHON_USEDEP}]
 		dev-python/blinker[${PYTHON_USEDEP}]
 		dev-python/natsort[${PYTHON_USEDEP}]
