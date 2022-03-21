@@ -10,7 +10,7 @@ EGIT_REPO_URI="https://github.com/armaturae/dwm"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~arm64"
+KEYWORDS="~arm64 ~amd64"
 IUSE="xinerama"
 
 RDEPEND="
