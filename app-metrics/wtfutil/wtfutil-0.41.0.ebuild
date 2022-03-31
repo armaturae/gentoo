@@ -1239,7 +1239,7 @@ go-module_set_globals
 
 DESCRIPTION="personal information dashboard for your terminal"
 HOMEPAGE="http://wtfutil.com/"
-SOURCE_URI="https://github.com/wtfutil/wtf/archive/refs/tags/v${PV}.tar.gz -> ${P}.tar.gz
+SOURCE_URI="https://github.com/wtfutil/wtf/archive/v${PV}.tar.gz -> ${PN}-v${PV}.tar.gz
            ${EGO_SUM_SRC_URI}"
 LICENSE="MPL-2.0"
 SLOT="0"
