@@ -1246,6 +1246,8 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT+=" test"
 
+S="${WORKDIR}/${PN}-v${PV}"
+
 src_compile() {
 	emake build
 }
