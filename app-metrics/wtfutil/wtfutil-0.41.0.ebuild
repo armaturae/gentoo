@@ -1246,7 +1246,7 @@ SLOT="0"
 KEYWORDS="~amd64"
 RESTRICT+=" test"
 
-S="${WORKDIR}/wtf-${PV}"
+S="${WORKDIR}/wtfutil-${PV}/wtf-${PV}"
 
 src_compile() {
 	emake build
