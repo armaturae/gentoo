@@ -1249,8 +1249,12 @@ FEATURES="-network-sandbox"
 
 S="${WORKDIR}/wtf-${PV}"
 
+src_unpack() {
+	go-module_src_unpack
+}
+
 src_compile() {
-	ego build
+	emake build
 }
 
 src_install() {
