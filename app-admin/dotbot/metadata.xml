@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="project">
+	<email>baraka1345@gmail.com</email>
+    <name>Barak Avrahami</name>
+</maintainer>
+<description>
+Dotbot is a tool that bootstraps your dotfiles (it's a [Dot]files [bo]o[t]strapper, get it?). It does less than you think, because version control systems do more than you think.
+</description>
+<longdescription>
+Dotbot is a tool that bootstraps your dotfiles (it's a [Dot]files [bo]o[t]strapper, get it?). It does less than you think, because version control systems do more than you think.
+Dotbot is designed to be lightweight and self-contained, with no external dependencies and no installation required. Dotbot can also be a drop-in replacement for any other tool you were using to manage your dotfiles, and Dotbot is VCS-agnostic -- it doesn't make any attempt to manage your dotfiles.
+</longdescription>
+</pkgmetadata>
