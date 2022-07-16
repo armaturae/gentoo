@@ -12,7 +12,7 @@ HOMEPAGE="https://github.com/anishathalye/dotbot"
 
 SRC_URI="https://github.com/anishathalye/dotbot/archive/v${PV}.tar.gz"
 
-KEYWORDS="amd64 ~arm ~arm64"
+KEYWORDS="~amd64 ~arm ~arm64"
 
 LICENSE="GPL-3"
 SLOT="0"
